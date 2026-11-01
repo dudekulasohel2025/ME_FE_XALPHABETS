@@ -1,6 +1,6 @@
 describe("Alphabet Buttons App", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173"); // Change to your Vite dev URL
+    cy.visit("https://me-fe-xalphabets.vercel.app/"); // Change to your Vite dev URL
   });
 
   it("should display the title, subtitle, and output area", () => {
